@@ -1,5 +1,7 @@
 # fertilization-model
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/winghoko/fertilization-model/HEAD)
+
 Implements the broadcast spawning fertilization model described in [REF] in python. Provides both python module(s) and example jupyter notebook(s).
 
 The core of this repository is the `fertilization.py` python module. This module defines a `FertilizationModel` class that encapsulate the broadcast spawning fertilization model. To use this module, the third-party packages `numpy` and `scipy` are required. 
