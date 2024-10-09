@@ -1,5 +1,7 @@
 '''
-Implements the broadcast spawning fertilization model described in [REF].
+Implements the broadcast spawning fertilization model described in
+Chan and Ko (2024) [https://doi.org/10.1093/icb/icae071].
+
 The bulk of this module consists of the FertilizationModel class. In
 addition, a convenient function factory make_const_func() is provided,
 and a custom exception NotYetSolvedError is defined.
@@ -36,7 +38,9 @@ class NotYetSolvedError(NotImplementedError):
 
 class FertilizationModel:
     '''
-    Encapsulate the broadcast spawning fertilization model described in [REF].
+    Encapsulate the broadcast spawning fertilization model described in
+    Chan and Ko (2024) [https://doi.org/10.1093/icb/icae071].
+    
     In typical use, an instance is initialized with suitable parameters (some
     of which are functions. See the documentations of the __init__() magic 
     method for more details), after which the .solve_S0() AND .solve_pmn()
